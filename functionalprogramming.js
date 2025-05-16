@@ -6,7 +6,7 @@ function consoleStyler(color, background, fontSize, txt) {
     
     // Declare a variable for the style
     // WRITE YOUR CODE HERE
-    var style = `color: ${color};`
+    var style = `color: ${color};`;
 
     // Append background style to the style variable
     // WRITE YOUR CODE HERE
@@ -29,13 +29,13 @@ function celebrateStyler(reason) {
     
     // Check if the reason is "birthday"
     // WRITE YOUR CODE HERE
-    if ("birthday" == reason) {
+    if (reason === "birthday") {
         console.log(`%cHappy birthday`, fontStyle);
     }
     
     // If reason is "champions", log a congrats message
     // WRITE YOUR CODE HERE
-    else if ("champion" == reason) {
+    else if (reason === "champions") {
         console.log(`%cCongrats on the title!`, fontStyle);
     }
     
@@ -59,11 +59,11 @@ celebrateStyler('birthday');
 function styleAndCelebrate(color, background, fontSize, txt, reason) {
     // Call consoleStyler with the first four arguments
     // WRITE YOUR CODE HERE
-    consoleStyler(color, background, fontSize, txt)
+    consoleStyler(color, background, fontSize, txt);
     
     // Call celebrateStyler with the last argument
     // WRITE YOUR CODE HERE
-    celebrateStyler(reason)
+    celebrateStyler(reason);
 }
 
 // Call styleAndCelebrate with appropriate arguments
@@ -71,3 +71,11 @@ function styleAndCelebrate(color, background, fontSize, txt, reason) {
 styleAndCelebrate('#ef7c8e', '#fae8e0', '30px', 'You made it!', 'champions');
 
 // Paste this to Browser DevTools > Inspect > Console.
+
+/*
+Key Takeaways:
+
+- Use backticks (``) and ${} to dynamically create strings for console styling. This technique enables customizable and reusable code for styled console messages. 
+- The %c format in console.log allows you to apply styles directly to messages in the console, making it useful for debugging or creating visually distinct logs.
+- Functions like consoleStyler and celebrateStyler demonstrate how to encapsulate logic into reusable blocks.
+*/

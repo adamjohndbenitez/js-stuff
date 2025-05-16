@@ -1,0 +1,23 @@
+{
+  "name": "js-stuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content-update_click-event.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamjohndbenitez/js-stuff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamjohndbenitez/js-stuff/issues"
+  },
+  "homepage": "https://github.com/adamjohndbenitez/js-stuff#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

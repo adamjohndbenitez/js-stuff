@@ -1,0 +1,7 @@
+1. check these: terminal > node --version && npm --versio > jest --version
+2. to add package.json file (track the dependencies of project) > npm init -y
+3. install jest > npm install --save-dev jest
+4. in package.json > change "echo "Error: no test specified" && exit 1" > "scripts": { "test": "jest" },
+5. add a unit test > addFive.test.js
+6. terminal, cd Jest/
+7. npm run test
