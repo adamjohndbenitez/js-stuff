@@ -1,7 +1,8 @@
 // Task 1
 // WRITE YOUR CODE HERE - Create the logDairy function and use a for...of loop to log each item in the dairy array
 var diares = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream', 'milkshake'];
-logDairy = function() { // anonymous unnamed function.
+// anonymous unnamed function.
+logDairy = function() {
     for (var diary of diares) {
         console.log(diary);
     }
